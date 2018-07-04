@@ -1,0 +1,32 @@
+body{
+background-image: url("bg.jpg");
+background-repeat:repeat-x,-y;
+border:0;
+background-attachment: fixed;
+}
+#me{
+  background-color: e;
+  float: none;
+  padding: auto;
+  margin: auto;
+  border:auto;
+  width: auto;
+}
+
+a:hover {
+    color: red;
+    
+}
+a;active{
+        color:blue
+}
+#img{
+  margin-left: 300px;
+  align: center;
+}
+@@media query and(min-width;500px) {
+  #img{margin-left:150;
+      align:center;
+    }
+
+}
